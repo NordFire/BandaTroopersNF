@@ -9,15 +9,14 @@
 	supplies = list(
 		/obj/item/ammo_box/magazine/unsc/ma5c = 1,
 		/obj/item/ammo_box/magazine/unsc/ma5b = 1,
-		/obj/item/ammo_box/magazine/unsc/br55 = 1,
 	)
 
 /obj/structure/largecrate/supply/ammo/halo/marksman
 	name = "UNSC designated rifle ammunition case"
 	desc = "A UNSC ammunition case containing BR55 and M392 DMR ammunition for squad leaders and marksmen."
 	supplies = list(
-		/obj/item/ammo_box/magazine/unsc/br55 = 2,
-		/obj/item/ammo_box/magazine/unsc/dmr = 2,
+		/obj/item/ammo_box/magazine/unsc/br55 = 1,
+		/obj/item/ammo_box/magazine/unsc/dmr = 1,
 	)
 
 /obj/structure/largecrate/supply/ammo/halo/pdw
@@ -69,7 +68,7 @@
 	name = "UNSC medical packets case"
 	desc = "A UNSC medical case containing trauma packets."
 	supplies = list(
-		/obj/item/ammo_box/magazine/misc/unsc/medical_packets = 2,
+		/obj/item/ammo_box/magazine/misc/unsc/medical_packets = 1,
 	)
 
 /obj/structure/largecrate/supply/medicine/halo/corpsman_kit
