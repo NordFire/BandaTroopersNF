@@ -41,7 +41,8 @@
 	parent_type = /datum/rto_support_action_template/halo/logistics
 	action_id = "halo_shotgun_ammo_drop"
 	name = "Дробовые патроны"
-	description = "Сбрасывает небольшой комплект дроби для дробовиков 8-го калибра."
+	description = "Сбрасывает ящики с дробью и пулями для дробовика 8-го калибра."
+	support_pool_cost = 2
 	fire_support_path = /datum/fire_support/supply_drop/halo/shotgun
 
 /datum/rto_support_action_template/halo_sniper_ammo_drop
