@@ -32,7 +32,10 @@
 /obj/structure/largecrate/supply/ammo/halo/shotgun
 	name = "UNSC shotgun ammunition case"
 	desc = "A compact UNSC shotgun case intended for one breacher."
-	supplies = list(/obj/item/ammo_magazine/shotgun/buckshot/unsc = 4)
+	supplies = list(
+		/obj/item/ammo_magazine/shotgun/buckshot/unsc = 2,
+		/obj/item/ammo_magazine/shotgun/slug/unsc = 2,
+	)
 
 /obj/structure/largecrate/supply/ammo/halo/sniper
 	name = "UNSC sniper ammunition case"

@@ -92,6 +92,20 @@
 /obj/item/ammo_box/magazine/misc/unsc/m7_ammo/empty
 	empty = TRUE
 
+/obj/item/ammo_box/magazine/shotgun/buckshot/unsc
+	name = "\improper shotgun 8g shell box (Buckshot x 96)"
+	icon_state = "base_buck"
+	overlay_content = "_buck"
+	magazine_type = /obj/item/ammo_magazine/shotgun/buckshot/unsc
+	num_of_magazines = 96
+
+/obj/item/ammo_box/magazine/shotgun/slug/unsc
+	name = "\improper shotgun 8g shell box (Buckshot x 96)"
+	icon_state = "base_slug"
+	overlay_content = "_slug"
+	magazine_type = /obj/item/ammo_magazine/shotgun/slug/unsc
+	num_of_magazines = 96
+
 /obj/item/ammo_box/magazine/unsc
 	name = "UNSC magazine box"
 	desc = "Типовой ящик с боеприпасами для оружия ККОН."

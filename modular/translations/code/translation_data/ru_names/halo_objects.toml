@@ -2655,6 +2655,16 @@ prepositional = "коробке дробовых патронов ККОН 8-г�
 gender = "female"
 tags = [ "halo",]
 
+["unsc 8-gauge shotgun slug box"]
+nominative = "коробка пулевых патронов ККОН 8-го калибра"
+genitive = "коробки пулевых патронов ККОН 8-го калибра"
+dative = "коробке пулевых патронов ККОН 8-го калибра"
+accusative = "коробку пулевых патронов ККОН 8-го калибра"
+instrumental = "коробкой пулевых патронов ККОН 8-го калибра"
+prepositional = "коробке пулевых патронов ККОН 8-го калибра"
+gender = "female"
+tags = [ "halo",]
+
 ["unsc buttpack"]
 nominative = "задний подсумок ККОН"
 genitive = "заднего подсумка ККОН"
