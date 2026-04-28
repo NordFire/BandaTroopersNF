@@ -7,7 +7,7 @@
 
 /datum/rto_support_action_template/halo/logistics
 	parent_type = /datum/rto_support_action_template/halo
-	shared_cooldown = 240 SECONDS
+	shared_cooldown = 360 SECONDS
 	personal_cooldown = 600 SECONDS
 	support_pool_cost = 1
 	personal_lockout = 6 SECONDS
@@ -19,7 +19,6 @@
 	action_id = "halo_rifle_ammo_drop"
 	name = "Боеприпасы винтовочного калибра"
 	description = "Сбрасывает смешанный винтовочный ящик для MA5C, MA5B, BR55."
-	support_pool_cost = 2
 	fire_support_path = /datum/fire_support/supply_drop/halo/rifle
 
 /datum/rto_support_action_template/halo_marksman_ammo_drop
@@ -34,7 +33,6 @@
 	action_id = "halo_pdw_ammo_drop"
 	name = "Боеприпасы пистолетеного калибра и средств самообороны"
 	description = "Сбрасывает магазины M7 и пистолетов."
-	support_pool_cost = 2
 	fire_support_path = /datum/fire_support/supply_drop/halo/pdw
 
 /datum/rto_support_action_template/halo_shotgun_ammo_drop
@@ -42,7 +40,6 @@
 	action_id = "halo_shotgun_ammo_drop"
 	name = "Дробовые патроны"
 	description = "Сбрасывает ящики с дробью и пулями для дробовика 8-го калибра."
-	support_pool_cost = 2
 	fire_support_path = /datum/fire_support/supply_drop/halo/shotgun
 
 /datum/rto_support_action_template/halo_sniper_ammo_drop
@@ -64,7 +61,6 @@
 	action_id = "halo_grenadier_ammo_drop"
 	name = "Боеприпасы гренадера"
 	description = "Сбрасывает ящик гренадера с 40-мм выстрелами и осколочными гранатами."
-	support_pool_cost = 2
 	fire_support_path = /datum/fire_support/supply_drop/halo/grenadier
 
 /datum/rto_support_action_template/halo_emergency_weapon_drop
@@ -72,5 +68,4 @@
 	action_id = "halo_emergency_weapon_drop"
 	name = "Ящик резервного вооружения"
 	description = "Сбрасывает набор для самообороны, содержит кобуру с пистолетом M6G и боезапас к нему."
-	support_pool_cost = 1
 	fire_support_path = /datum/fire_support/supply_drop/halo/emergency_weapon
