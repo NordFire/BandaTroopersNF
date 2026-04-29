@@ -18,20 +18,20 @@
 	parent_type = /datum/rto_support_action_template/halo/logistics
 	action_id = "halo_rifle_ammo_drop"
 	name = "Боеприпасы винтовочного калибра"
-	description = "Сбрасывает смешанный винтовочный ящик для MA5C, MA5B, BR55."
+	description = "Сбрасывает смешанный винтовочный ящик для MA5C и MA5B."
 	fire_support_path = /datum/fire_support/supply_drop/halo/rifle
 
 /datum/rto_support_action_template/halo_marksman_ammo_drop
 	parent_type = /datum/rto_support_action_template/halo/logistics
 	action_id = "halo_marksman_ammo_drop"
 	name = "Боеприпасы марксмана"
-	description = "Сбрасывает магазины марксманской винтовки M392 DMR."
+	description = "Сбрасывает магазины для винтовок M392 DMR и BR55"
 	fire_support_path = /datum/fire_support/supply_drop/halo/marksman
 
 /datum/rto_support_action_template/halo_pdw_ammo_drop
 	parent_type = /datum/rto_support_action_template/halo/logistics
 	action_id = "halo_pdw_ammo_drop"
-	name = "Боеприпасы пистолетеного калибра и средств самообороны"
+	name = "Боеприпасы пистолетного калибра и средств самообороны"
 	description = "Сбрасывает магазины M7 и пистолетов."
 	fire_support_path = /datum/fire_support/supply_drop/halo/pdw
 
@@ -39,7 +39,7 @@
 	parent_type = /datum/rto_support_action_template/halo/logistics
 	action_id = "halo_shotgun_ammo_drop"
 	name = "Дробовые патроны"
-	description = "Сбрасывает ящики с дробью и пулями для дробовика 8-го калибра."
+	description = "Сбрасывает ящики с дробью и пулями для дробовиков 8-го калибра."
 	fire_support_path = /datum/fire_support/supply_drop/halo/shotgun
 
 /datum/rto_support_action_template/halo_sniper_ammo_drop

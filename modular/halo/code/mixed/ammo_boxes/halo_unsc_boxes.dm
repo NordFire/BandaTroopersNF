@@ -92,20 +92,6 @@
 /obj/item/ammo_box/magazine/misc/unsc/m7_ammo/empty
 	empty = TRUE
 
-/obj/item/ammo_box/magazine/shotgun/buckshot/unsc
-	name = "\improper shotgun 8g shell box (Buckshot x 96)"
-	icon_state = "base_buck"
-	overlay_content = "_buck"
-	magazine_type = /obj/item/ammo_magazine/shotgun/buckshot/unsc
-	num_of_magazines = 96
-
-/obj/item/ammo_box/magazine/shotgun/slug/unsc
-	name = "\improper shotgun 8g shell box (Buckshot x 96)"
-	icon_state = "base_slug"
-	overlay_content = "_slug"
-	magazine_type = /obj/item/ammo_magazine/shotgun/slug/unsc
-	num_of_magazines = 96
-
 /obj/item/ammo_box/magazine/unsc
 	name = "UNSC magazine box"
 	desc = "Типовой ящик с боеприпасами для оружия ККОН."
@@ -195,3 +181,45 @@
 	icon_state = "base_ammosmall2"
 	magazine_type = /obj/item/ammo_magazine/pistol/halo/m6g
 	num_of_magazines = 22
+
+/obj/item/ammo_box/magazine/unsc/shotgun
+	name = "\improper UNSC shotgun shell box"
+	desc = "Типовой ящик с боеприпасами для оружия ККОН, однако этот ящик не должен находится тут, да и вообще, где вы его достали?"
+	icon = 'icons/halo/obj/items/weapons/guns/ammo_boxes/boxes_and_lids.dmi'
+	icon_state = "base_buck"
+	magazines_icon = 'icons/halo/obj/items/weapons/guns/ammo_boxes/magazines.dmi'
+	text_markings_icon = 'icons/halo/obj/items/weapons/guns/ammo_boxes/text.dmi'
+	num_of_magazines = 96
+	handfuls = TRUE
+	flags_equip_slot = SLOT_BACK
+	overlay_content = null
+
+
+
+/obj/item/ammo_box/magazine/unsc/shotgun/update_icon()
+	if(overlays)
+		overlays.Cut()
+	if(overlay_ammo_type)
+		overlays += image(text_markings_icon, icon_state = "base_type[overlay_ammo_type]") //adding base color stripes
+	if(!icon_state_deployed) // The lid is on the sprite already.
+		overlays += image(icon, icon_state = "[icon_state]_lid") //adding lid
+	if(overlay_gun_type)
+		overlays += image(text_markings_icon, icon_state = "text[overlay_gun_type]") //adding text
+	if(overlay_ammo_type!="_reg" && overlay_ammo_type!="_blank" && (!icon_state_deployed) )
+		overlays += image(text_markings_icon, icon_state = "lid_type[overlay_ammo_type]") //adding base color stripes
+
+/obj/item/ammo_box/magazine/unsc/shotgun/buckshot
+	name = "\improper shotgun 8g shell box (Buckshot x 96)"
+	desc = "Ящик с пулями для дробовиков ККОН 8-го калибра"
+	overlay_content = "_buck"
+	overlay_ammo_type = "_buck"
+	magazine_type = /obj/item/ammo_magazine/shotgun/buckshot/unsc
+	num_of_magazines = 96
+
+/obj/item/ammo_box/magazine/unsc/shotgun/slug
+	name = "\improper shotgun 8g shell box (Slug x 96)"
+	desc = "Ящик с дробью для дробовиков ККОН 8-го калибра"
+	overlay_content = "_slug"
+	overlay_ammo_type = "_slug"
+	magazine_type = /obj/item/ammo_magazine/shotgun/slug/unsc
+	num_of_magazines = 96

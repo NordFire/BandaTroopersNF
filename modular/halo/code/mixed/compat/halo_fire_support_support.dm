@@ -116,7 +116,7 @@
 	delivered = /obj/structure/largecrate/supply/ammo/halo/grenadier
 
 /datum/fire_support/supply_drop/halo/emergency_weapon
-	name = "боеприпасы гренадера"
+	name = "Ящик резервного вооружения"
 	fire_support_type = "emergency_weapon_drop"
 	delivered = /obj/structure/largecrate/supply/ammo/halo/emergency_weapon
 
