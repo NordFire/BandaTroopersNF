@@ -25,13 +25,12 @@
 	targeting_summary = "Сектор не требуется: отметьте открытую точку посадки через RTO-бинокль и вызывайте груз напрямую."
 	restriction_summary = "Доступен RTO ролям UNSC и ODST. Каждый сброс требует открытого неба и восстанавливается медленнее, чем снабжение USCM."
 	action_template_types = list(
-		/datum/rto_support_action_template/halo_rifle_ammo_drop,
-		/datum/rto_support_action_template/halo_marksman_ammo_drop,
-		/datum/rto_support_action_template/halo_pdw_ammo_drop,
-		/datum/rto_support_action_template/halo_shotgun_ammo_drop,
+		// /datum/rto_support_action_template/halo_rifle_ammo_drop,
+		// /datum/rto_support_action_template/halo_marksman_ammo_drop,
+		// /datum/rto_support_action_template/halo_pdw_ammo_drop,
+		// /datum/rto_support_action_template/halo_shotgun_ammo_drop,
+		/datum/rto_support_action_template/halo_frontline_ammo_drop,
 		/datum/rto_support_action_template/halo_sniper_ammo_drop,
 		/datum/rto_support_action_template/halo_spnkr_ammo_drop,
 		/datum/rto_support_action_template/halo_grenadier_ammo_drop,
-		/datum/rto_support_action_template/halo_emergency_weapon_drop,
 	)
-	support_action_icon_state = "ammo"

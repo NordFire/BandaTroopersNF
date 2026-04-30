@@ -25,8 +25,24 @@
 	supplies = list(
 		/obj/item/ammo_box/magazine/misc/unsc/m7_ammo = 1,
 		/obj/item/ammo_box/magazine/unsc/small/m6c = 1,
-		/obj/item/ammo_magazine/pistol/halo/m6d = 3,
+		/obj/item/ammo_box/magazine/unsc/small/m6d = 1,
 		/obj/item/ammo_box/magazine/unsc/small/m6g = 1,
+	)
+
+/obj/structure/largecrate/supply/ammo/halo/frontline
+	name = "UNSC frontline weapon ammunition case"
+	desc = "A UNSC ammunition case containing almost any ammo frontline needs."
+	supplies = list(
+		/obj/item/ammo_box/magazine/misc/unsc/m7_ammo = 1,
+		/obj/item/ammo_box/magazine/unsc/small/m6c = 1,
+		/obj/item/ammo_box/magazine/unsc/small/m6d = 1,
+		/obj/item/ammo_box/magazine/unsc/small/m6g = 1,
+		/obj/item/ammo_box/magazine/unsc/br55 = 1,
+		/obj/item/ammo_box/magazine/unsc/dmr = 1,
+		/obj/item/ammo_box/magazine/unsc/ma5c = 1,
+		/obj/item/ammo_box/magazine/unsc/ma5b = 1,
+		/obj/item/ammo_box/magazine/unsc/shotgun/buckshot = 1,
+		/obj/item/ammo_box/magazine/unsc/shotgun/slug = 1,
 	)
 
 /obj/structure/largecrate/supply/ammo/halo/shotgun
@@ -53,13 +69,6 @@
 	supplies = list(
 		/obj/item/ammo_box/magazine/misc/unsc/grenade/launchable = 1,
 		/obj/item/ammo_box/magazine/misc/unsc/grenade = 1,
-	)
-
-/obj/structure/largecrate/supply/ammo/halo/emergency_weapon
-	name = "UNSC emergency weapon case"
-	desc = "A UNSC emergency weapon case containing M6G handgun and some spare ammo"
-	supplies = list(
-		/obj/item/storage/belt/gun/m6/full_m6g = 1,
 	)
 
 /obj/structure/largecrate/supply/medicine/halo
@@ -176,5 +185,17 @@
 		/obj/item/explosive/plastic/breaching_charge = 2,
 		/obj/item/tool/shovel/etool/folded = 1,
 		/obj/item/tool/crowbar = 1,
+	)
+
+/obj/structure/largecrate/supply/supplies/halo/field_service
+	name = "UNSC field service case"
+	desc = "A UNSC field service case containing tools and part for field repairs."
+	supplies = list(
+		/obj/item/storage/toolbox/traxus/big = 1,
+		/obj/item/stack/sheet/plasteel/med_small_stack = 1,
+		/obj/item/stack/sheet/metal/med_small_stack = 1,
 		/obj/item/clothing/glasses/welding = 1,
+		/obj/item/storage/pouch/electronics/full = 1,
+		/obj/item/tool/weldpack/minitank = 1,
+		/obj/item/tool/extinguisher/mini = 1,
 	)

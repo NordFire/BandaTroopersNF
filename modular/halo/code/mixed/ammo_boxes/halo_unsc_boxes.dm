@@ -182,6 +182,13 @@
 	magazine_type = /obj/item/ammo_magazine/pistol/halo/m6g
 	num_of_magazines = 22
 
+/obj/item/ammo_box/magazine/unsc/small/m6d
+	name = "UNSC magazine box (M6D x 22)"
+	desc = "Ящик с 22 магазинами для M6D."
+	icon_state = "base_ammosmall3"
+	magazine_type = /obj/item/ammo_magazine/pistol/halo/m6d
+	num_of_magazines = 22
+
 /obj/item/ammo_box/magazine/unsc/shotgun
 	name = "\improper UNSC shotgun shell box"
 	desc = "Типовой ящик с боеприпасами для оружия ККОН, однако этот ящик не должен находится тут, да и вообще, где вы его достали?"
@@ -193,8 +200,6 @@
 	handfuls = TRUE
 	flags_equip_slot = SLOT_BACK
 	overlay_content = null
-
-
 
 /obj/item/ammo_box/magazine/unsc/shotgun/update_icon()
 	if(overlays)
