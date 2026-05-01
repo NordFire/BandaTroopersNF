@@ -102,7 +102,7 @@
 	accurate_range = 9
 	max_range = 12
 	damage = 130
-	penetration = ARMOR_PENETRATION_TIER_9
+	penetration = ARMOR_PENETRATION_TIER_7
 	shell_casing = /obj/effect/decal/ammo_casing/greenshell
 
 /datum/ammo/bullet/shotgun/slug/unsc/on_hit_mob(mob/M, obj/projectile/P)

@@ -215,7 +215,7 @@
 
 /obj/item/ammo_box/magazine/unsc/shotgun/buckshot
 	name = "\improper shotgun 8g shell box (Buckshot x 96)"
-	desc = "Ящик с пулями для дробовиков ККОН 8-го калибра"
+	desc = "Ящик с дробью для дробовиков ККОН 8-го калибра"
 	overlay_content = "_buck"
 	overlay_ammo_type = "_buck"
 	magazine_type = /obj/item/ammo_magazine/shotgun/buckshot/unsc
@@ -223,7 +223,7 @@
 
 /obj/item/ammo_box/magazine/unsc/shotgun/slug
 	name = "\improper shotgun 8g shell box (Slug x 96)"
-	desc = "Ящик с дробью для дробовиков ККОН 8-го калибра"
+	desc = "Ящик с пулями для дробовиков ККОН 8-го калибра"
 	overlay_content = "_slug"
 	overlay_ammo_type = "_slug"
 	magazine_type = /obj/item/ammo_magazine/shotgun/slug/unsc

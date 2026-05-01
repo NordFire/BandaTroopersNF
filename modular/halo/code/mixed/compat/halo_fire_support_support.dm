@@ -118,7 +118,7 @@
 
 /datum/fire_support/supply_drop/halo/frontline
 	name = "Большой ящик с боеприпасами"
-	fire_support_type = "frontline_ammo_drop"
+	fire_support_type = "halo_frontline_ammo_drop"
 	delivered = /obj/structure/largecrate/supply/ammo/halo/frontline
 
 /datum/fire_support/supply_drop/halo/medical_packets
