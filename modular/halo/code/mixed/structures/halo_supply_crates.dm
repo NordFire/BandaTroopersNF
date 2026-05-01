@@ -1,7 +1,9 @@
 /obj/structure/largecrate/supply/ammo/halo
 	name = "UNSC ammunition case"
 	desc = "A UNSC ammunition case containing combat resupply."
-	icon_state = "secure_crate_strapped"
+	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon_state = "cratestack"
+	parts_type = ""
 
 /obj/structure/largecrate/supply/ammo/halo/rifle
 	name = "UNSC rifle ammunition case"
@@ -74,7 +76,9 @@
 /obj/structure/largecrate/supply/medicine/halo
 	name = "UNSC medical case"
 	desc = "A UNSC medical case containing field treatment supplies."
-	icon_state = "secure_crate_strapped"
+	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon_state = "cratestack"
+	parts_type = ""
 
 /obj/structure/largecrate/supply/medicine/halo/medical_packets
 	name = "UNSC medical packets case"
@@ -96,15 +100,16 @@
 	name = "UNSC biofoam reserve case"
 	desc = "A UNSC medical case containing biofoam injectors and burn treatment reserves."
 	supplies = list(
-		/obj/item/reagent_container/hypospray/autoinjector/primeable/biofoam = 4,
-		/obj/item/reagent_container/hypospray/autoinjector/primeable/biofoam/antidote = 2,
+		/obj/item/storage/syringe_case/unsc/biofoamcase = 2,
 		/obj/item/storage/syringe_case/unsc/burnguard = 2,
 	)
 
 /obj/structure/largecrate/supply/supplies/halo
 	name = "UNSC support case"
 	desc = "A UNSC support case containing field supplies."
-	icon_state = "secure_crate_strapped"
+	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon_state = "cratestack"
+	parts_type = ""
 
 /obj/structure/largecrate/supply/supplies/halo/toolbox
 	name = "UNSC toolbox support case"
@@ -175,7 +180,9 @@
 /obj/structure/largecrate/supply/explosives/halo
 	name = "UNSC explosives case"
 	desc = "A UNSC explosives case containing breaching equipment."
-	icon_state = "secure_crate_strapped"
+	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon_state = "cratestack"
+	parts_type = ""
 
 /obj/structure/largecrate/supply/explosives/halo/breaching
 	name = "UNSC breaching case"

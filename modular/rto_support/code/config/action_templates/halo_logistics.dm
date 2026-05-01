@@ -7,7 +7,7 @@
 
 /datum/rto_support_action_template/halo/logistics
 	parent_type = /datum/rto_support_action_template/halo
-	shared_cooldown = 360 SECONDS
+	shared_cooldown = 240 SECONDS
 	personal_cooldown = 600 SECONDS
 	support_pool_cost = 1
 	personal_lockout = 6 SECONDS
