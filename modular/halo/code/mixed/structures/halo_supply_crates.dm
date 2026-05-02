@@ -1,7 +1,7 @@
 /obj/structure/largecrate/supply/ammo/halo
 	name = "UNSC ammunition case"
 	desc = "A UNSC ammunition case containing combat resupply."
-	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon = 'modular/halo/icons/halo/obj/structures/crates.dmi'
 	icon_state = "cratestack"
 	parts_type = ""
 
@@ -76,7 +76,7 @@
 /obj/structure/largecrate/supply/medicine/halo
 	name = "UNSC medical case"
 	desc = "A UNSC medical case containing field treatment supplies."
-	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon = 'modular/halo/icons/halo/obj/structures/crates.dmi'
 	icon_state = "cratestack"
 	parts_type = ""
 
@@ -107,7 +107,7 @@
 /obj/structure/largecrate/supply/supplies/halo
 	name = "UNSC support case"
 	desc = "A UNSC support case containing field supplies."
-	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon = 'modular/halo/icons/halo/obj/structures/crates.dmi'
 	icon_state = "cratestack"
 	parts_type = ""
 
@@ -180,7 +180,7 @@
 /obj/structure/largecrate/supply/explosives/halo
 	name = "UNSC explosives case"
 	desc = "A UNSC explosives case containing breaching equipment."
-	icon = 'icons/halo/obj/structures/crates.dmi'
+	icon = 'modular/halo/icons/halo/obj/structures/crates.dmi'
 	icon_state = "cratestack"
 	parts_type = ""
 

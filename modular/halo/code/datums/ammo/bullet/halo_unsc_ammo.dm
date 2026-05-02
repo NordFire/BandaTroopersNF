@@ -99,6 +99,7 @@
 /datum/ammo/bullet/shotgun/slug/unsc
 	name = "MAG 15P-SL"
 	handful_state = "8g_slug"
+	handful_type = /obj/item/ammo_magazine/handful/shotgun/slug_unsc
 	accurate_range = 9
 	max_range = 12
 	damage = 130
@@ -179,7 +180,7 @@
 
 /datum/ammo/rocket/spnkr
 	name = "M19 missile"
-	icon = 'icons/halo/obj/items/weapons/halo_projectiles.dmi'
+	icon = 'modular/halo/icons/halo/obj/items/weapons/halo_projectiles.dmi'
 	icon_state = "spnkr_missile"
 	damage = 300
 	shell_speed = AMMO_SPEED_TIER_3

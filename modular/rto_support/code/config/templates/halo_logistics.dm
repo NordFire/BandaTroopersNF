@@ -8,6 +8,7 @@
 	category = "support"
 	visibility_altitude_requirement = RTO_SUPPORT_ALTITUDE_HIGH
 	visibility_action_icon_state = "designator_mortar"
+	support_action_icon_file = 'modular/halo/icons/mob/radial.dmi'
 
 /datum/rto_support_template/halo_logistics
 	parent_type = /datum/rto_support_template/halo
